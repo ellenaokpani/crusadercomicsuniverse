@@ -205,6 +205,57 @@
 
 }
 
+/**
+   * ABOUT SECTION RESPONSIVE
+   */
+
+   root {
+
+    /**
+     * Spacing 
+     */
+
+    --px: 50px; /* padding-left & padding-right */
+
+  }
+
+
+   .about{
+     grid-template-columns: 1fr;
+     margin: 20px;
+   }
+
+   .about-text{
+    margin: 40px;
+    padding: 50px;
+   
+   }
+
+   .about-text h2{
+    --fs-md:17px;
+   }
+
+   .about-img{
+    text-align: center;
+    order: 2;
+    
+   }
+
+   .about-img img{
+    
+    width: 80%;
+    height: auto;
+    max-width: 80%;
+   }
+
+   
+
+}
+
+
+
+
+
 
 
 
