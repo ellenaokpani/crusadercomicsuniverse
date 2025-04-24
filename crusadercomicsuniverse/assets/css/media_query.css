@@ -347,6 +347,48 @@
 
   .navbar-form-btn { right: 55px; }
 
+  /**
+   * ABOUT SECTION RESPONSIVE
+   */
+
+  
+
+
+
+   .about{
+     grid-template-columns: 1fr;
+     margin: 10px;
+   }
+
+   .about-text{
+    margin: 0px;
+    padding: 10px;
+    text-align: justify;
+   
+   }
+
+   .about-text h2{
+    --fs-md:17px;
+   }
+
+   .about-img{
+    text-align: center;
+    order: 2;
+    
+   }
+
+   .about-img img{
+    
+    width: 80%;
+    height: auto;
+    max-width: 80%;
+   }
+
+   
+
+}
+
+
   
   /**
    * FOOTER SECTION RISPONSIVE
