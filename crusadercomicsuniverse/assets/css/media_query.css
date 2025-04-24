@@ -2,10 +2,6 @@
   #media_query.css
 \*-------------------------------------*/
 
-/**
- * copyright 2021 @codewithsadee 
- */
-
 
 
 
@@ -205,9 +201,8 @@
 
 }
 
-/**
-   * ABOUT SECTION RESPONSIVE
-   */
+
+@media screen and (max-width: 920px)
 
    root {
 
@@ -218,6 +213,10 @@
     --px: 50px; /* padding-left & padding-right */
 
   }
+
+/**
+   * ABOUT SECTION RESPONSIVE
+   */
 
 
    .about{
