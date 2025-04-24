@@ -202,7 +202,19 @@
 }
 
 
+
+
+
+/*-------------------------------------*\
+  #RESPONSIVE FOR 920px
+\*-------------------------------------*/
 @media screen and (max-width: 920px)
+
+
+  /**
+   * ABOUT SECTION RESPONSIVE
+   */
+
 
    root {
 
@@ -214,12 +226,7 @@
 
   }
 
-/**
-   * ABOUT SECTION RESPONSIVE
-   */
-
-
-   .about{
+.about{
      grid-template-columns: 1fr;
      margin: 20px;
    }
@@ -250,6 +257,10 @@
    
 
 }
+
+
+
+
 
 
 
