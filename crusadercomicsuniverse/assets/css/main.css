@@ -561,6 +561,7 @@ input ~ .checked-radio-bg {
   line-height: 1.7;
   margin: 15px 0 30px;
   font-weight: var(--fw-7);
+  justify-content: center;
 
 }
 
