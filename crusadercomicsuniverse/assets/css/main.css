@@ -532,6 +532,11 @@ input ~ .checked-radio-bg {
 
 .category-card:hover .name { color: var(--light-azure); }
 
+.section-heading{
+  text-align: center;
+}
+
+
 
 
 
