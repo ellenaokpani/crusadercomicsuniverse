@@ -775,6 +775,18 @@ ul li {
 
 
 @media (max-width: 1024px) {
+  .banner {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: auto;
+    min-height: unset;
+  }
+  .banner-card {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: auto;
+  }
+
   .character {
     display: flex;
     flex-direction: column; 
