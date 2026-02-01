@@ -312,7 +312,7 @@
   
  .banner-img {
   width: 100%;
-  min-height: 80vh;
+  height: auto;
   max-height: none;
   display: block;
   }
