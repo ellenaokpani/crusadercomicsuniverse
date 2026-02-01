@@ -294,6 +294,10 @@
  /**
    * BANNER SECTION 
    */
+  .banner {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
 
   .banner-card .card-content {
     bottom: 30px;
