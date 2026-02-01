@@ -145,6 +145,11 @@
 
   .banner-card .card-title { font-size: 2.5em; }
 
+  .banner-img{
+    background-size: contain; 
+    background-repeat: no-repeat;
+  }
+
 
 
   /**
@@ -194,11 +199,13 @@
    * BANNER SECTION 
    */
   .banner-card .card-content {
-    background-size: contain; 
-    background-repeat: no-repeat;
     bottom: 40px;
     left: 60px;
     right: 60px;
+  }
+  .banner-img {
+    background-size: contain; 
+    background-repeat: no-repeat;
   }
 
 }
@@ -295,11 +302,13 @@
    */
 
   .banner-card .card-content {
-    background-size: contain; 
-    background-repeat: no-repeat;
     bottom: 30px;
     left: 60px;
     right: 60px;
+  }
+  .banner-img {
+    background-size: contain; 
+    background-repeat: no-repeat;
   }
 
 
