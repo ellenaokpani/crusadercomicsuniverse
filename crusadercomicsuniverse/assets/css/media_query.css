@@ -194,6 +194,8 @@
    * BANNER SECTION 
    */
   .banner-card .card-content {
+    background-size: contain; 
+    background-repeat: no-repeat;
     bottom: 40px;
     left: 60px;
     right: 60px;
@@ -293,6 +295,8 @@
    */
 
   .banner-card .card-content {
+    background-size: contain; 
+    background-repeat: no-repeat;
     bottom: 30px;
     left: 60px;
     right: 60px;
