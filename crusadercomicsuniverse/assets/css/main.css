@@ -216,7 +216,7 @@ nav { margin-right: 200px; }
  * banner card style 
  */
 
-.banner { margin-bottom: 0px; }
+.banner { margin-bottom: 0px; padding-bottom: 0px; }
 
 .banner-card {
   position: relative;
