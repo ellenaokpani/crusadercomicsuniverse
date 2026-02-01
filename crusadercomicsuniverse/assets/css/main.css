@@ -226,7 +226,13 @@ nav { margin-right: 200px; }
   cursor: pointer;
 }
 
-.banner-img { object-position: top; }
+.banner-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+/*{ object-position: top; }*/
 
 .banner-card:hover .banner-img { transform: scale(1.1); }
 
@@ -812,6 +818,9 @@ ul li {
 
 
 @media (max-width: 768px) {
+  .banner-img {
+    max-height: 100%;
+  }
   .character {
     flex-direction: column;
     align-items: center;
@@ -823,6 +832,7 @@ ul li {
     width: 70%;
     margin-bottom: 40px;
   }
+  
 
 }
 
